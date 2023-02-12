@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@arcana/auth": "^1.0.1",
+    "ethers": "^6.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
