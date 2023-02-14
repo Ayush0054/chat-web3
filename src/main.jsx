@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+
 import { AuthProvider } from "@arcana/auth";
 import { ProvideAuth } from "@arcana/auth-react";
 
@@ -13,5 +14,6 @@ root.render(
     <ProvideAuth provider={provider}>
       <App />
     </ProvideAuth>
+
   </React.StrictMode>
 );

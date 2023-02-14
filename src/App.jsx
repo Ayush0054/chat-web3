@@ -1,3 +1,4 @@
+
 import { Auth, useAuth } from "@arcana/auth-react";
 import { useNavigate } from "react-router";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -34,6 +35,7 @@ function App() {
     </>
 
   );
+
 }
 
 export default App;
