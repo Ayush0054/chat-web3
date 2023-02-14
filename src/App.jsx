@@ -4,14 +4,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from "./Home";
 
 
-//use Navigation 
-const navigate = useNavigate()
-
 function App() {
 
   const onLogin = () => {
     // Route to authenticated page
-    navigate("/home")
+    useNavigate("/home")
   }
   const auth = useAuth();
 
