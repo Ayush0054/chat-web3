@@ -11,6 +11,8 @@
   "dependencies": {
     "@arcana/auth": "^1.0.1",
     "@arcana/auth-react": "^0.0.3",
+    "@pushprotocol/socket": "^0.4.0",
+    "@pushprotocol/uiweb": "^0.4.2",
     "axios": "^1.3.2",
     "ethers": "^6.0.4",
     "react": "^18.2.0",
