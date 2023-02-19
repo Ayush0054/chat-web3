@@ -12,6 +12,9 @@ function Messages() {
             <EachMessage />
             <Chat 
              account="0x72666686A71CF3F4Ece71Fbde1589C557353DD68"
+             supportAddress=""
+             apiKey="jVPMCRom1B.iDRMswdehJG7NpHDiECIHwYMMv6k2KzkPJscFIDyW8TtSnk4blYnGa8DIkfuacU0"
+             env="staging"
             />
             <SendMessage />
           </div>
